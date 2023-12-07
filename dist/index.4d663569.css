@@ -1,5 +1,68 @@
 body {
+  color: #666;
   font-family: sans-serif;
+}
+
+input {
+  border: none;
+  border-radius: 8px;
+  padding: 6px 16px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  margin: 0 2px;
+  padding: 4px 16px;
+}
+
+button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #73a8a9;
+}
+
+.input-area {
+  background-color: #c4e5d8;
+  border-radius: 8px;
+  width: 400px;
+  height: 30px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.incomplete-area {
+  border: 2px solid #c4e5d8;
+  border-radius: 8px;
+  width: 400px;
+  min-height: 200px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.list-row {
+  align-items: center;
+  display: flex;
+}
+
+.todo-item {
+  margin: 6px;
+}
+
+.complete-area {
+  background-color: #c7dedf;
+  border: 2px solid #c4e5d8;
+  border-radius: 8px;
+  width: 400px;
+  min-height: 200px;
+  margin: 8px;
+  padding: 8px;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
